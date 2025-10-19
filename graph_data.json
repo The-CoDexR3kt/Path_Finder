@@ -1,0 +1,98 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "pos": [
+                100,
+                200
+            ],
+            "id": "City Hall"
+        },
+        {
+            "pos": [
+                300,
+                400
+            ],
+            "id": "Central Park"
+        },
+        {
+            "pos": [
+                150,
+                500
+            ],
+            "id": "Main Library"
+        },
+        {
+            "pos": [
+                500,
+                250
+            ],
+            "id": "Grand Station"
+        },
+        {
+            "pos": [
+                450,
+                550
+            ],
+            "id": "Museum"
+        },
+        {
+            "pos": [
+                700,
+                100
+            ],
+            "id": "Airport"
+        },
+        {
+            "pos": [
+                50,
+                78
+            ],
+            "id": "School"
+        }
+    ],
+    "links": [
+        {
+            "weight": 4.5,
+            "source": "City Hall",
+            "target": "Main Library"
+        },
+        {
+            "weight": 2.8,
+            "source": "City Hall",
+            "target": "Central Park"
+        },
+        {
+            "weight": 6.0,
+            "source": "City Hall",
+            "target": "School"
+        },
+        {
+            "weight": 3.1,
+            "source": "Central Park",
+            "target": "Grand Station"
+        },
+        {
+            "weight": 2.0,
+            "source": "Central Park",
+            "target": "Museum"
+        },
+        {
+            "weight": 1.5,
+            "source": "Main Library",
+            "target": "Museum"
+        },
+        {
+            "weight": 5.2,
+            "source": "Grand Station",
+            "target": "Airport"
+        },
+        {
+            "weight": 2.5,
+            "source": "Grand Station",
+            "target": "Museum"
+        }
+    ]
+}
